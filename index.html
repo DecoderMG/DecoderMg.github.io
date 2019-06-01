@@ -134,6 +134,7 @@
           <h2 class="section-title text-capitalize">PROFILE</h2>
           <p class="section-sub">I present a unique blend of business and Software Engineering that is rarely seen. Having applied Software Engineering principles in numerous products and maintain client relationships through past projects due to quality craftmanship.</p>
         </div>
+        <!-- These could be wrapped in a list component and probably should be, next steps after initial react conversion :) -->
         <div class="row">
           <div id="foodMenuGrid">
             <div class="col-md-6 col-sm-12 col-xs-12 food-menu-category">
@@ -143,29 +144,20 @@
                   <h2 class="text-uppercase white-text no-margin">What I bring</h2>
                 </div>
                 <div class="food-menu-list">
-                  <div class="food-menu">
-                    <div class="row">
-                      <div class="col-md-12 col-sm-11">
-                        <h3 class="food-menu-title white-text text-bold">Mobile Expertise</h3>
-                        <div class="food-menu-detail white-text">My roots are in Android programming. I always think mobile first in an IoT world.</div>
-                      </div>
-                    </div>
+                  <div
+                    class="profile_list_item"
+                    data-title="Mobile Expertise"
+                    data-description="My roots are in Android programming. I always think mobile first in an IoT world.">
                   </div>
-                  <div class="food-menu">
-                    <div class="row">
-                      <div class="col-md-12 col-sm-11">
-                        <h3 class="food-menu-title white-text text-bold">Excellent project Management Skills</h3>
-                        <div class="food-menu-detail white-text">Trained in excellent Software Engineering practices like SCRUM and agile principles I can supercharge development.</div>
-                      </div>
-                    </div>
+                  <div
+                    class="profile_list_item"
+                    data-title="Excellent project Management Skills"
+                    data-description="Trained in excellent Software Engineering practices like SCRUM and agile principles I can supercharge development.">
                   </div>
-                  <div class="food-menu">
-                    <div class="row">
-                      <div class="col-md-12 col-sm-11">
-                        <h3 class="food-menu-title white-text text-bold">Quality programming and design skills</h3>
-                        <div class="food-menu-detail white-text">I'm not only a project manager, I'm a programmer with the ability to create high quality and maintainable code.</div>
-                      </div>
-                    </div>
+                  <div
+                    class="profile_list_item"
+                    data-title="Quality programming and design skills"
+                    data-description="I'm not only a project manager, I'm a programmer with the ability to create high quality and maintainable code.">
                   </div>
                 </div>
               </div>
@@ -177,38 +169,23 @@
                   <h2 class="text-uppercase white-text no-margin">Education</h2>
                 </div>
                 <div class="food-menu-list">
-                  <div class="food-menu">
-                    <div class="row">
-                      <div class="col-md-9 col-sm-8">
-                        <h3 class="food-menu-title white-text text-bold">B.S. in Software Engineering</h3>
-                        <div class="food-menu-detail white-text">The University of Virginia's College at Wise.</div>
-                      </div>
-                      <div class="col-md-3 col-sm-4 food-menu-price-detail">
-                        <h3 class="food-menu-price white-text text-medium">2009 - 2015</h3>
-                      </div>
-                    </div>
+                  <div
+                    class="profile_list_item"
+                    data-title="B.S. in Software Engineering"
+                    data-description="The University of Virginia's College at Wise."
+                    data-range="2009 - 2015">
                   </div>
-                  <div class="food-menu">
-                    <div class="row">
-                      <div class="col-md-9 col-sm-8">
-                        <h3 class="food-menu-title white-text text-bold">B.S. in Computer Science</h3>
-                        <div class="food-menu-detail white-text">The University of Virginia's College at Wise.</div>
-                      </div>
-                      <div class="col-md-3 col-sm-4 food-menu-price-detail">
-                        <h3 class="food-menu-price white-text text-medium">2009 - 2015</h3>
-                      </div>
-                    </div>
+                  <div
+                    class="profile_list_item"
+                    data-title="B.S. in Computer Science"
+                    data-description="The University of Virginia's College at Wise."
+                    data-range="2009 - 2015">
                   </div>
-                  <div class="food-menu">
-                    <div class="row">
-                      <div class="col-md-9 col-sm-8">
-                        <h3 class="food-menu-title white-text text-bold">Udacity</h3>
-                        <div class="food-menu-detail white-text">Classes taught by Google and other industry leaders. Completed classes range from Android development to Machine Learning and Self-Driving Cars.</div>
-                      </div>
-                      <div class="col-md-3 col-sm-4 food-menu-price-detail">
-                        <h3 class="food-menu-price white-text text-medium">2016 - Ongoing</h3>
-                      </div>
-                    </div>
+                  <div
+                    class="profile_list_item"
+                    data-title="Udacity"
+                    data-description="Numerous classes completed ranging from Android development to Machine Learning and Self-Driving Cars."
+                    data-range="2016 - Ongoing">
                   </div>
                 </div>
               </div>
@@ -220,38 +197,23 @@
                   <h2 class="text-uppercase white-text no-margin">Experience</h2>
                 </div>
                 <div class="food-menu-list">
-                  <div class="food-menu">
-                    <div class="row">
-                      <div class="col-md-9 col-sm-8">
-                        <h3 class="food-menu-title white-text text-bold">CEO / Founder</h3>
-                        <div class="food-menu-detail white-text">Dreams.Build</div>
-                      </div>
-                      <div class="col-md-3 col-sm-4 food-menu-price-detail">
-                        <h3 class="food-menu-price white-text text-medium">2012 - 2017</h3>
-                      </div>
-                    </div>
+                  <div
+                    class="profile_list_item"
+                    data-title="CEO / Founder"
+                    data-description="Dreams.Build"
+                    data-range="2012 - 2017">
                   </div>
-                  <div class="food-menu">
-                    <div class="row">
-                      <div class="col-md-9 col-sm-8">
-                        <h3 class="food-menu-title white-text text-bold">Development Freelancer</h3>
-                        <div class="food-menu-detail white-text">Application Hope LLC.</div>
-                      </div>
-                      <div class="col-md-3 col-sm-4 food-menu-price-detail">
-                        <h3 class="food-menu-price white-text text-medium">2010 - 2014</h3>
-                      </div>
-                    </div>
+                  <div
+                    class="profile_list_item"
+                    data-title="Development Freelancer"
+                    data-description="Application Hope LLC."
+                    data-range="2010 - 2014">
                   </div>
-                  <div class="food-menu">
-                    <div class="row">
-                      <div class="col-md-9 col-sm-8">
-                        <h3 class="food-menu-title white-text text-bold">Systems Admin</h3>
-                        <div class="food-menu-detail white-text">Highland Cavalier Newspaper</div>
-                      </div>
-                      <div class="col-md-3 col-sm-4 food-menu-price-detail">
-                        <h3 class="food-menu-price white-text text-medium">2013 - 2015</h3>
-                      </div>
-                    </div>
+                  <div
+                    class="profile_list_item"
+                    data-title="Systems Admin"
+                    data-description="Highland Cavalier Newspaper"
+                    data-range="2013 - 2015">
                   </div>
                 </div>
               </div>
@@ -263,37 +225,25 @@
                   <h2 class="text-uppercase white-text no-margin">Skills</h2>
                 </div>
                 <div class="food-menu-list">
-                  <div class="food-menu">
-                    <div class="row">
-                      <div class="col-md-12 col-sm-11">
-                        <h3 class="food-menu-title white-text text-bold">Android Development</h3>
-                        <div class="food-menu-detail white-text">My roots are engraved in mobile development. With R&D heavy projects like language translation for Google Glass or an activity-based music player.</div>
-                      </div>
-                    </div>
+                  <div
+                    class="profile_list_item"
+                    data-title="Android Development"
+                    data-description="My roots are engraved in mobile development. With R&D heavy projects like language translation for Google Glass or an activity-based music player.">
                   </div>
-                  <div class="food-menu">
-                    <div class="row">
-                      <div class="col-md-12 col-sm-11">
-                        <h3 class="food-menu-title white-text text-bold">OOP knowledge</h3>
-                        <div class="food-menu-detail white-text">My knowledge of Object-oriented programming allows me to produce code that is easily maintained and improved.</div>
-                      </div>
-                    </div>
+                  <div
+                    class="profile_list_item"
+                    data-title="OOP knowledge"
+                    data-description="My knowledge of Object-oriented programming allows me to produce code that is easily maintained and improved.">
                   </div>
-                  <div class="food-menu">
-                    <div class="row">
-                      <div class="col-md-12 col-sm-11">
-                        <h3 class="food-menu-title white-text text-bold">Software Management</h3>
-                        <div class="food-menu-detail white-text">I'm knowledgable on modern day Software Engineering practises.</div>
-                      </div>
-                    </div>
+                  <div
+                    class="profile_list_item"
+                    data-title="Software Management"
+                    data-description="I'm knowledgable on modern day Software Engineering practises.">
                   </div>
-                  <div class="food-menu">
-                    <div class="row">
-                      <div class="col-md-12 col-sm-11">
-                        <h3 class="food-menu-title white-text text-bold">Client Relations</h3>
-                        <div class="food-menu-detail white-text">I've helped numerous startups define their technology offerings and mobile experiences on a global scale.</div>
-                      </div>
-                    </div>
+                  <div
+                    class="profile_list_item"
+                    data-title="Client Relations"
+                    data-description="I've helped numerous startups define their technology offerings and mobile experiences on a global scale.">
                   </div>
                 </div>
               </div>
@@ -605,6 +555,6 @@
     <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
     <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-    <!--    <script src="profile-list-item.js"></script>-->
+    <script src="profile-list-item.js"></script>
   </body>
 </html>
