@@ -68,9 +68,9 @@
     </div>
     <section class="section-padding" id="about">
       <div class="container">
-        <div class="text-center mb-80">
-          <h2 class="section-title text-uppercase">Who I am</h2>
-          <p class="section-sub">Software Engineer. Android Developer. DevOps Advocate. Avid Coffee Drinker. Microservice Fanatic. Gamer. Global Entrepreneur. Content Creator. Outdoors Lover. Taco Destroyer.</p>
+        <div class="section-header"
+          data-title="WHO I AM"
+          data-description="Software Engineer. Android Developer. DevOps Advocate. Avid Coffee Drinker. Microservice Fanatic. Gamer. Global Entrepreneur. Content Creator. Outdoors Lover. Taco Destroyer.">
         </div>
         <div class="row">
           <div class="col-md-12">
@@ -130,9 +130,9 @@
     </section>
     <section id="menu" class="section-padding light-pink-bg">
       <div class="container">
-        <div class="text-center mb-80">
-          <h2 class="section-title text-capitalize">PROFILE</h2>
-          <p class="section-sub">I present a unique blend of business and Software Engineering that is rarely seen. Having applied Software Engineering principles in numerous products and maintain client relationships through past projects due to quality craftmanship.</p>
+        <div class="section-header"
+          data-title="PROFILE"
+          data-description="I present a unique blend of business and Software Engineering that is rarely seen. Having applied Software Engineering principles in numerous products and maintain client relationships through past projects due to quality craftmanship.">
         </div>
         <!-- These could be wrapped in a list component and probably should be, next steps after initial react conversion :) -->
         <div class="row">
@@ -254,8 +254,8 @@
     </section>
     <section class="section-padding" id="ref">
       <div class="container">
-        <div class="text-center mb-80">
-          <h2 class="section-title text-capitalize">WHAT PEOPLE SAY ABOUT ME</h2>
+        <div class="section-header"
+          data-title="WHAT PEOPLE SAY ABOUT ME">
         </div>
         <div class="row">
           <div class="col-md-8 col-md-offset-2">
@@ -301,9 +301,9 @@
     </div>
     <section id="works" class="section-padding">
       <div class="container">
-        <div class="text-center mb-80">
-          <h2 class="section-title text-uppercase">Portfolio</h2>
-          <p class="section-sub">All of the projects I've worked on, from research and development applications for the experimental Google Glass platform to a global rewards-based crowdfunding platform.</p>
+        <div class="section-header"
+          data-title="Portfolio"
+          data-description="All of the projects I've worked on, from research and development applications for the experimental Google Glass platform to a global rewards-based crowdfunding platform.">
         </div>
         <div class="portfolio-container">
           <ul class="portfolio-filter brand-filter text-center">
@@ -461,10 +461,11 @@
     </section>
     <section class="section-padding" id="contact">
       <div class="container">
-        <div class="text-center mb-80">
-          <h2 class="section-title text-uppercase">Drop me a line</h2>
-          <p class="section-sub">Want to grab some coffee and talk? Let me know. I'm always up to learn about new opportunities! <br><br><strong>If you'd like, you can see my portfolio in an Android app <a href="https://digital-dakota.mybluemix.net/https://github.com/DecoderMG/PortfolioApp/blob/master/app/release/dakotas-portfolio-app.apk">here.</a></strong></p>
+        <div class="section-header"
+          data-title="DROP ME A LINE">
         </div>
+        <p class="text-center mb-80 section-sub">Want to grab some coffee and talk? Let me know. I'm always up to learn about new opportunities!<br><strong>If you'd like, you can see my portfolio in an Android app <a href="https://digital-dakota.mybluemix.net/https://github.com/DecoderMG/PortfolioApp/blob/master/app/release/dakotas-portfolio-app.apk">here.</a></strong></p>
+          
         <div class="row">
           <div class="col-md-8">
             <form name="contact-form" id="contactForm" action="sendemail.php" method="POST">
@@ -556,5 +557,6 @@
     <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
     <script src="profile-list-item.js"></script>
+    <script src="section-header.js"></script>
   </body>
 </html>
