@@ -1711,6 +1711,24 @@ nav ul a {
 
 
 /*---------------------------------------------------------
+CERT BANNER OVERRIDES
+-----------------------------------------------------------*/
+.badge-banner {
+    padding: 30px;
+}
+.badge-banner-text {
+    padding-top: 2%;
+    padding-right: 0px;
+}
+.badge-container {
+    float: right;
+    padding-right: 2%;
+}
+.badge-container .cert-badge {
+    float: right;
+}
+
+/*---------------------------------------------------------
 KEY FRAME 
 -----------------------------------------------------------*/
 
