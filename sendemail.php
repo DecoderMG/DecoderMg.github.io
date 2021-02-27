@@ -63,7 +63,7 @@
     if ( mail( $to, $subject, $contents, $headers ) ) {
         $result = array( 'response' => 'success', 'message'=>'<strong>Thank You!</strong>&nbsp; Your email has been delivered.' );
     } else {
-        $result = array( 'response' => 'error', 'message'=>'<strong>Error!</strong>&nbsp; Cann\'t Send Mail.'  );
+        $result = array( 'response' => 'error', 'message'=>'<strong>Error!</strong>&nbsp; Can not Send Mail.'  );
     }
 
     echo json_encode( $result );
